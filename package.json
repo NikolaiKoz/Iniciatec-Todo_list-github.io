@@ -1,0 +1,23 @@
+{
+  "name": "iniciatec-todo_list-github.io",
+  "version": "1.0.0",
+  "description": "This is a Todo list project using pug ,sass, typescript and firebase.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikolaiKoz/Iniciatec-Todo_list-github.io.git"
+  },
+  "keywords": [
+    "todo",
+    "list"
+  ],
+  "author": "Vallejos Jose Luis",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/NikolaiKoz/Iniciatec-Todo_list-github.io/issues"
+  },
+  "homepage": "https://github.com/NikolaiKoz/Iniciatec-Todo_list-github.io#readme"
+}
