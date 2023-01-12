@@ -16,7 +16,7 @@
   \***********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"captureInputData\": () => (/* binding */ captureInputData)\n/* harmony export */ });\nconst captureInputData = () => {\n\n    const form = document.querySelector('form');\n\n    console.log(form);\n\n    console.log('captureInputData()' + typeof(form));\n\n\n};\n\n//# sourceURL=webpack://iniciatec-todo_list-github.io/./src/js/components/captureInputData.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"captureInputData\": () => (/* binding */ captureInputData)\n/* harmony export */ });\nconst captureInputData = () => {\n\n    const form = document.querySelector('form');\n\n    console.log(form[2]);\n\n    form[2].addEventListener('click', (e) => {\n        e.preventDefault();\n\n        console.log(form[0].value);\n        console.log(form[1].value);\n\n\n\n    });\n\n\n\n};\n\n//# sourceURL=webpack://iniciatec-todo_list-github.io/./src/js/components/captureInputData.js?");
 
 /***/ }),
 
