@@ -1,0 +1,7 @@
+@mixin title($size: 1.5rem, $weight: 700, $color: $color-title, $family: 'Anton', $line-height: 1.5){
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+    font-family: $family;
+    line-height: $line-height;
+}

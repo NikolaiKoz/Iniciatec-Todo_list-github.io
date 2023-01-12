@@ -4,7 +4,7 @@
   "description": "This is a Todo list project using pug ,sass, typescript and firebase.",
   "main": "index.js",
   "scripts": {
-    "watch": "concurrently --kill-others-on-fail 'nodemon --watch src --ext pug build.js' 'nodemon --watch src/scss --ext scss --exec \"npx sass src/scss/index.scss:dist/css/app.css\"' 'nodemon --watch src/ts --ext ts --exec \"tsc -p .\"'",
+    "watch": "concurrently --kill-others-on-fail 'nodemon --watch src/scss --ext scss --exec \"npx sass src/scss/index.scss:dist/css/app.css\"' 'nodemon --watch src/ts --ext ts --exec \"tsc -p .\"'",
     "run:docs": "concurrently --kill-others-on-fail 'npx jsdoc -c jsdoc.json' 'npx sassdoc ./src/scss'"
   }
   ,
@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/NikolaiKoz/Iniciatec-Todo_list-github.io#readme",
   "dependencies": {
-    "pug": "^3.0.2"
   },
   "devDependencies": {
     "jsdoc": "^4.0.0",

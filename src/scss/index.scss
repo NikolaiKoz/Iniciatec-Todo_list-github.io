@@ -1,4 +1,24 @@
-body{
-    background: blue;
-    color: purple;
-}
+
+
+
+
+
+// 01-settigs
+@import './01-settings/_typography.scss';
+@import './01-settings/_colors.scss';
+@import './01-settings/_text.scss';
+
+// 02-tools
+
+// 03-generic
+@import './03-generic/_normalice.scss';
+
+// 04-elements
+
+// 05-objects
+
+// 06-components
+@import './06-components/_Header.scss';
+@import './06-components/_LogoContainer.scss';
+
+// 07-utilities
