@@ -1,8 +1,0 @@
-{
-    "compilerOptions": {
-      "noImplicitAny": true,
-      "outFile": "./dist/js/app.js",
-      "rootDir": "./src/ts",
-      "sourceMap": true
-    }
-  }

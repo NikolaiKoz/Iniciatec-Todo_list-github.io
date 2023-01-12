@@ -1,1 +1,3 @@
-# Delete me when you finish the project
+import { captureInputData } from "./components/captureInputData";
+
+captureInputData();

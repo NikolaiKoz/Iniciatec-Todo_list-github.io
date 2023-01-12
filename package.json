@@ -4,10 +4,9 @@
   "description": "This is a Todo list project using pug ,sass, typescript and firebase.",
   "main": "index.js",
   "scripts": {
-    "watch": "concurrently --kill-others-on-fail 'nodemon --watch src/scss --ext scss --exec \"npx sass src/scss/index.scss:dist/css/app.css\"' 'nodemon --watch src/ts --ext ts --exec \"tsc -p .\"'",
+    "watch": "npx concurrently --kill-others-on-fail 'nodemon --watch src/scss --ext scss --exec \"npx sass src/scss/index.scss:dist/css/app.css\"' 'nodemon --watch src/js --ext js --exec \"npx webpack --config webpack.config.js\"'",
     "run:docs": "concurrently --kill-others-on-fail 'npx jsdoc -c jsdoc.json' 'npx sassdoc ./src/scss'"
-  }
-  ,
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NikolaiKoz/Iniciatec-Todo_list-github.io.git"
@@ -23,12 +22,14 @@
   },
   "homepage": "https://github.com/NikolaiKoz/Iniciatec-Todo_list-github.io#readme",
   "dependencies": {
+    "concurrently": "^7.6.0"
   },
   "devDependencies": {
     "jsdoc": "^4.0.0",
     "nodemon": "^2.0.20",
     "sass": "^1.57.1",
     "sassdoc": "^2.7.4",
-    "typescript": "^4.9.4"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   }
 }
