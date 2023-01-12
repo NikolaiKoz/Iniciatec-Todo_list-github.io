@@ -1,0 +1,12 @@
+{
+    "dest": "./sassdoc",
+    "verbose": true,
+    "display": {
+      "access": ["public", "private"],
+      "alias": true,
+      "watermark": true
+    },
+    "groups": {
+      "undefined": "Ungrouped"
+    }
+}

@@ -6,7 +6,9 @@
   "scripts": {
     "watch:pug": "nodemon --watch src --ext pug build.js",
     "watch:sass": "nodemon --watch src/scss --ext scss --exec 'npx sass src/scss/index.scss:dist/css/app.css'",
-    "watch:ts": "nodemon --watch src/ts --ext ts --exec 'tsc -p .'"
+    "watch:ts": "nodemon --watch src/ts --ext ts --exec 'tsc -p .'",
+    "run:jsdocs": "jsdoc -c jsdoc.json",
+    "run:sassdoc": "sassdoc ./src/scss"
   },
   "repository": {
     "type": "git",
@@ -26,8 +28,10 @@
     "pug": "^3.0.2"
   },
   "devDependencies": {
+    "jsdoc": "^4.0.0",
     "nodemon": "^2.0.20",
     "sass": "^1.57.1",
+    "sassdoc": "^2.7.4",
     "typescript": "^4.9.4"
   }
 }
