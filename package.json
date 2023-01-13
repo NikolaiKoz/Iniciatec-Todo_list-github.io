@@ -25,6 +25,7 @@
     "concurrently": "^7.6.0"
   },
   "devDependencies": {
+    "firebase": "^9.15.0",
     "jsdoc": "^4.0.0",
     "nodemon": "^2.0.20",
     "sass": "^1.57.1",
