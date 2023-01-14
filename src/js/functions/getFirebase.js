@@ -22,4 +22,6 @@ export const getFirebase = () => {
   // const analytics = getAnalytics(app);
    const db = getFirestore(app);
 
+
+   //Pasamos a React por fIN!!
 };
